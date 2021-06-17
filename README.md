@@ -2,6 +2,9 @@
 
 ## Private forks
 
+It is hard to work with open source in a large enterprise. For example, when we want to consume or contribute to an open source project, we cannot use forks, as this leaks coroporate information publicly. We would like a process that enables us to have the fork features to keep things  in sync and to allows us to create pull-requests, but to do this privately and have this in a private review process.
+A new type of "private" fork, including a new kind of legal review request that we can introduce before a PR is opened towards the upstream project.
+
 ## Resource groups
 
 Today, Github orgs solves two problems. They create a namespace for repositories and they control access to shared resources not tied to a specific repository. For large organizations, this creates an issue, as you want to controll access to shared resousources in ways that does not match how we want to name repositotires. And most importantly, the repo name serves as an idenfier in many, many different places and changing this is very cumbersome. Which means that if we want to change how resources are distributed, we would need to change which org a repo belongs to, even if that does not necessariy controll access to the repository in question (as this is handled by teams). Using nested organizations would not solve this re-organization problem. What you would normally want to do, is to change how resources are controlled, not change the name or identity of the repository. This might even be impossible or at least very challenging to do.
