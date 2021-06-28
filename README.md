@@ -3,7 +3,7 @@
 ## Private forks
 
 It is hard to work with open source in a large enterprise. For example, when we want to consume or contribute to an open source project, we cannot use forks, as this leaks coroporate information publicly. We would like a process that enables us to have the fork features to keep things  in sync and to allows us to create pull-requests, but to do this privately and have this in a private review process.
-A new type of "private" fork, including a new kind of legal review request that we can introduce before a PR is opened towards the upstream project.
+A new type of "private" fork, including a new kind of legal review request that we can introduce before a PR is opened towards the upstream project. Perhaps even different kinds of reviewes, like it is possible to have different CI checks required before merge. Could possibly be controlled like CODEOWNERS or something like that.
 
 ## Resource groups
 
